@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr;
+}
+
+.parent .edit{
+display: flex;
+flex-wrap: wrap;
+/* justify-content: center;   */
+align-items: center;
+gap: 4px;
+padding-bottom: 10px;
+}
+.font,
+.bold,
+.larger,
+.smaller,
+.font-size,
+.invert{
+    background-color: white;
+    border: 5px white solid;
+    font-size: 15px;
+}
+.boldy{
+    font-weight: bold;
+}
+.font{
+    appearance:inherit;
+    padding: 1px;
+    padding-right: 30px;
+    outline: 0;
+}
+.article{
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+}
+.inver{
+    background-color: #000000c9;
+    color: white;
+}
